@@ -1,0 +1,107 @@
+[
+	{
+		"id": 1,
+		"name": "Crochet Bunny",
+		"price": 25.00,
+		"image": "images/crochet_bunny.jpg",
+		"description": "A cute, handmade crochet bunny made with soft yarn. Perfect for gifts and nursery decor."
+	},
+	{
+		"id": 2,
+		"name": "Soft Crochet Blanket",
+		"price": 45.00,
+		"image": "images/crochet_blanket.jpeg",
+		"description": "A soft and warm crochet blanket, perfect for cozying up on the couch or adding a handmade touch to your bed. Made with 100% cotton yarn for comfort and durability."
+	},
+	{
+		"id": 3,
+		"name": "Winter Cozy Hat",
+		"price": 18.00,
+		"image": "images/winter_crochet_hat.jpeg",
+		"description": "Stay warm and stylish with this cozy crochet hat. Available in various sizes and colors."
+	},
+	{
+		"id": 4,
+		"name": "Crochet Sweater",
+		"price": 35.00,
+		"image": "images/crochet_sweater.jpg",
+		"description": "A cozy handmade crochet sweater, perfect for staying warm and stylish. Great for layering in cooler weather."
+	},
+	{
+		"id": 5,
+		"name": "Handmade Crochet Pillow",
+		"price": 30.00,
+		"image": "images/handmade_crochet_pillow.jpg",
+		"description": "Soft and decorative crochet pillow for your home. Available in different colors and designs."
+	},
+	{
+		"id": 6,
+		"name": "Crochet Coffee Cup Cozy",
+		"price": 8.00,
+		"image": "images/crochet_coffee_cup_cozy.jpg",
+		"description": "Keep your hands cool with this eco-friendly crochet coffee cup cozy. Fits most standard cup sizes."
+	},
+	{
+		"id": 7,
+		"name": "Crochet Baby Booties",
+		"price": 15.00,
+		"image": "images/crochet_baby_booties.jpg",
+		"description": "Cute and comfy crochet baby booties, perfect for your little one. Soft, stretchy, and gentle on baby's feet."
+	},
+	{
+		"id": 8,
+		"name": "Crochet Keychain",
+		"price": 6.00,
+		"image": "images/crochet_keychain.jpg",
+		"description": "Handmade crochet keychain. Add a touch of personality to your keys, bags, or as a gift."
+	},
+	{
+		"id": 9,
+		"name": "Crochet Plant Pot Cover",
+		"price": 18.00,
+		"image": "images/crochet_plant_pot_cover.jpg",
+		"description": "A stylish crochet cover for your plant pots. Adds charm and protection to your plants while decorating your space."
+	},
+	{
+		"id": 10,
+		"name": "Crochet Handbag",
+		"price": 22.00,
+		"image": "images/crochet_handbag.jpg",
+		"description": "Stylish and eco-friendly crochet handbag, perfect for carrying your essentials with a touch of handmade charm."
+	},
+	{
+		"id": 11,
+		"name": "Crochet Scarf",
+		"price": 20.00,
+		"image": "images/crochet_scarf.jpg",
+		"description": "Warm and cozy crochet scarf, perfect for colder weather. (Wooden house shown in image not included.)"
+	},
+	{
+		"id": 12,
+		"name": "Crochet Tote Bag",
+		"price": 28.00,
+		"image": "images/crochet_tote_bag.jpg",
+		"description": "Handmade crochet tote bag. A stylish and functional accessory for everyday use, shopping, or travel."
+	},
+	{
+		"id": 13,
+		"name": "Crochet Christmas Stocking",
+		"price": 12.00,
+		"image": "images/crochet_christmas_stocking.jpg",
+		"description": "Add a handmade touch to your holiday decorations with this crochet Christmas stocking. Perfect for filling with gifts."
+	},
+	{
+		"id": 14,
+		"name": "Crochet Baby Blanket",
+		"price": 35.00,
+		"image": "images/crochet_baby_blanket.jpeg",
+		"description": "A soft and warm crochet baby blanket, perfect for newborns. Made with hypoallergenic materials."
+	},
+	{
+		"id": 15,
+		"name": "Crochet Phone Case",
+		"price": 14.00,
+		"image": "images/crochet_phone_case.jpg",
+		"description": "Protect your phone with this cute crochet phone case. Handmade with care and available in various sizes."
+	}
+]

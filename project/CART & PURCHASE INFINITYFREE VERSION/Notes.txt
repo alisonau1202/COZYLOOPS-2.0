@@ -1,0 +1,17 @@
+If I swap the cart_api.php files between the localhost and InfinityFree environments, they stop working. This is expected behaviour due to fundamental differences in how each environment is set up and how I've adapted the code for InfinityFree's specific server limitations.
+
+Here's why they don't work interchangeably:
+
+1. HTTP Method Handling (and Server Restrictions):
+
+ - 	Localhost cart_api.php: This version assumes your local web server 	allows all standard HTTP methods (GET, POST, DELETE, PATCH). It has 	separate elseif blocks explicitly handling DELETE for clear_all and 	id (remove all instances), and PATCH for remove_one and add_one 	actions.
+
+ - 	InfinityFree cart_api.php (the Canvas version): This version was 	modified specifically because free hosting providers like 	InfinityFree often block or restrict DELETE and PATCH HTTP methods 	at the server level for security or resource management reasons. To 	bypass this, we changed the frontend JavaScript to send POST 	requests for those actions, including an action parameter (e.g., 	'clear_cart', 'remove_all_items', 'add_one_item', 'remove_one_item') 	in the request body. The PHP API then inspects this action parameter 	within the POST request to perform the correct operation. The DELETE 	and PATCH blocks in this version now explicitly return "Method not 	allowed" messages for specific cart operations.
+
+If I swap them:
+
+ - 	The localhost cart_api.php on InfinityFree will fail because its 	DELETE and PATCH method handling will be blocked by InfinityFree's 	server rules, resulting in 403 Forbidden errors (as you saw 	previously).
+
+ - 	The InfinityFree cart_api.php on localhost will also fail because 	your frontend (e.g., cart.js) is still sending DELETE and PATCH 	requests (as per its original design before we modified it for 	InfinityFree compatibility). When these requests hit the 	InfinityFree cart_api.php (which is expecting POST with action 	parameters for those operations), it will return a "Method not 	allowed" error because it's no longer configured to handle those 	specific operations via DELETE or PATCH.
+
+In essence, the two versions of cart_api.php are tailored for their respective environments to account for different database configurations and server-level HTTP method policies.
